@@ -11,9 +11,9 @@ import secrets
 app = Flask(__name__)
 app.config['SECRET_KEY'] = secrets.token_hex(16)
 
-CLOUD_STORAGE_BUCKET = 'v-mart-stagging'
-project_id = 'principal-bird-410107'
-dataset_name = 'v_mart_user_details'
+CLOUD_STORAGE_BUCKET = 'vmart_sourcebuck1'
+project_id = 'speedy-baton-406811'
+dataset_name = 'Capstone_team1'
 table_name = 'user_data'
 
 credentials = service_account.Credentials.from_service_account_file("credentials.json")
