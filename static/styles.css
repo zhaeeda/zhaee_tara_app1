@@ -1,0 +1,40 @@
+body {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #333; /* Dark container background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+input, button {
+    background-color: #555; /* Dark input and button background color */
+    color: #fff; /* Light text color */
+    border: 1px solid #777;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button:disabled {
+    background-color: #777; /* Dark disabled button background color */
+    color: #ccc; /* Light disabled text color */
+}
+
+h1 {
+    color: #00bcd4; /* Google Cloud logo color */
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    margin-bottom: 20px; /* Add space below the image */
+}
+
+/* Add more styles as needed */
